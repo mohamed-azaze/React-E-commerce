@@ -20,12 +20,12 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route path="/React-E-commerce/" exact element={<Home />} />
-          <Route path="/React-E-commerce/:id" element={<ProductDetails />} />
-          <Route path='/React-E-commerce/Wishlist' element={<Wishlist />} />
-          <Route path='/React-E-commerce/create_account' element={<CreateAccount />} />
-          <Route path='/React-E-commerce/login' element={<Login />} />
-          <Route path='/React-E-commerce/reset-password' element={<ResetPassword />} />
+          <Route path="React-E-commerce/" exact element={<Home />} />
+          <Route path="React-E-commerce/:id" element={<ProductDetails />} />
+          <Route path='React-E-commerce/Wishlist' element={<Wishlist />} />
+          <Route path='React-E-commerce/create_account' element={<CreateAccount />} />
+          <Route path='React-E-commerce/login' element={<Login />} />
+          <Route path='React-E-commerce/reset-password' element={<ResetPassword />} />
           {/* <Route path='/loading' element={<Loading />} /> */}
 
         </Routes>
