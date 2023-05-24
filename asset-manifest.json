@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f3dd564.css",
-    "main.js": "/static/js/main.518c1f36.js",
-    "static/media/home2-slide2.jpg": "/static/media/home2-slide2.ff3d47aa95b5c7556028.jpg",
-    "static/media/home1-slider.jpg": "/static/media/home1-slider.1a8cc0997b4fd19b5419.jpg",
-    "static/media/home3.png": "/static/media/home3.33d078d0cbb7a5ca7c8b.png",
-    "static/media/trendrowthree1.jpg": "/static/media/trendrowthree1.69243cb0a02c76b93ce2.jpg",
-    "static/media/trendrowtwo1.jpg": "/static/media/trendrowtwo1.a3ae4ef048ede2495048.jpg",
-    "static/media/trendrowthree3.jpg": "/static/media/trendrowthree3.da9b5ce3b88f25d67585.jpg",
-    "static/media/trendrowthree2.jpg": "/static/media/trendrowthree2.b4ff89e01e5d35fddb7e.jpg",
-    "static/media/trendrowtwo5.jpg": "/static/media/trendrowtwo5.686877069dcfea8b00c5.jpg",
-    "static/media/home1.jpg": "/static/media/home1.35b344dca9f3f3a3c969.jpg",
-    "static/media/home2.jpg": "/static/media/home2.f2c55522168708953b4d.jpg",
-    "static/media/trendrowtwo3.jpg": "/static/media/trendrowtwo3.c91e5bdf51e97ccfb502.jpg",
-    "static/media/trendrowtwo2.jpg": "/static/media/trendrowtwo2.e1e0551fa378ef59d82f.jpg",
-    "static/media/trendrowtwo4.jpg": "/static/media/trendrowtwo4.4b4753dee7fd1888a465.jpg",
-    "index.html": "/index.html",
-    "main.8f3dd564.css.map": "/static/css/main.8f3dd564.css.map",
-    "main.518c1f36.js.map": "/static/js/main.518c1f36.js.map"
+    "main.css": "/React-E-commerce/static/css/main.8f3dd564.css",
+    "main.js": "/React-E-commerce/static/js/main.123a0417.js",
+    "static/media/home2-slide2.jpg": "/React-E-commerce/static/media/home2-slide2.ff3d47aa95b5c7556028.jpg",
+    "static/media/home1-slider.jpg": "/React-E-commerce/static/media/home1-slider.1a8cc0997b4fd19b5419.jpg",
+    "static/media/home3.png": "/React-E-commerce/static/media/home3.33d078d0cbb7a5ca7c8b.png",
+    "static/media/trendrowthree1.jpg": "/React-E-commerce/static/media/trendrowthree1.69243cb0a02c76b93ce2.jpg",
+    "static/media/trendrowtwo1.jpg": "/React-E-commerce/static/media/trendrowtwo1.a3ae4ef048ede2495048.jpg",
+    "static/media/trendrowthree3.jpg": "/React-E-commerce/static/media/trendrowthree3.da9b5ce3b88f25d67585.jpg",
+    "static/media/trendrowthree2.jpg": "/React-E-commerce/static/media/trendrowthree2.b4ff89e01e5d35fddb7e.jpg",
+    "static/media/trendrowtwo5.jpg": "/React-E-commerce/static/media/trendrowtwo5.686877069dcfea8b00c5.jpg",
+    "static/media/home1.jpg": "/React-E-commerce/static/media/home1.35b344dca9f3f3a3c969.jpg",
+    "static/media/home2.jpg": "/React-E-commerce/static/media/home2.f2c55522168708953b4d.jpg",
+    "static/media/trendrowtwo3.jpg": "/React-E-commerce/static/media/trendrowtwo3.c91e5bdf51e97ccfb502.jpg",
+    "static/media/trendrowtwo2.jpg": "/React-E-commerce/static/media/trendrowtwo2.e1e0551fa378ef59d82f.jpg",
+    "static/media/trendrowtwo4.jpg": "/React-E-commerce/static/media/trendrowtwo4.4b4753dee7fd1888a465.jpg",
+    "index.html": "/React-E-commerce/index.html",
+    "main.8f3dd564.css.map": "/React-E-commerce/static/css/main.8f3dd564.css.map",
+    "main.123a0417.js.map": "/React-E-commerce/static/js/main.123a0417.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3dd564.css",
-    "static/js/main.518c1f36.js"
+    "static/js/main.123a0417.js"
   ]
 }
