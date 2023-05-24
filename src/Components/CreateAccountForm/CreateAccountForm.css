@@ -1,0 +1,24 @@
+.showError {
+  transition: all 0.6s ease;
+  visibility: hidden;
+  opacity: 0;
+}
+.showError.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.create-form .form .form-header h5 {
+  font-size: 40px;
+}
+
+.create-form .form form .input-group input {
+  background-color: #f4f4f4;
+}
+.create-form .form form .input-group input[type="submit"] {
+  background-color: var(--font-color);
+  transition: all 0.4s ease;
+}
+.create-form .form form .input-group input[type="submit"]:hover {
+  background-color: #222222de;
+}

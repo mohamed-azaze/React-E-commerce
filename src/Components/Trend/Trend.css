@@ -1,0 +1,33 @@
+.tranding .swiper-button-next::after,
+.tranding .swiper-button-prev::after {
+  content: none !important;
+}
+
+.tranding .swiper-button-next::before,
+.tranding .swiper-button-prev::before {
+  font-family: "FontAwesome";
+  font-size: 18px;
+  color: #000;
+}
+.tranding .swiper-button-next::before {
+  content: "\f178";
+}
+.tranding .swiper-button-prev::before {
+  content: "\f177";
+}
+.tranding .swiper-button-next,
+.tranding .swiper-button-prev {
+  background-color: transparent;
+  box-shadow: 3px 3px 6px -1px rgb(0 0 0 / 40%);
+  width: 0;
+  height: 0;
+  padding: 22px 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.4s;
+}

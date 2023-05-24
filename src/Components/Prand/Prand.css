@@ -1,0 +1,13 @@
+.prand .mySwiper {
+  padding: 25px;
+}
+
+.prand .mySwiper .swiper-wrapper {
+  margin-bottom: 30px;
+}
+
+.prand .swiper-pagination span {
+  background-color: var(--font-color);
+  width: 10px;
+  height: 10px;
+}

@@ -1,0 +1,7 @@
+.signup-links li {
+  color: var(--font-text-color);
+  transition: all 0.4s ease;
+}
+.signup-links li:hover {
+  color: var(--main-color);
+}

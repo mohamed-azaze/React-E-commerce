@@ -1,0 +1,14 @@
+.login-form .form .form-header h5 {
+  font-size: 40px;
+}
+
+.login-form .form form .input-group input {
+  background-color: #f4f4f4;
+}
+.login-form .form form .input-group input[type="submit"] {
+  background-color: var(--font-color);
+  transition: all 0.4s ease;
+}
+.login-form .form form .input-group input[type="submit"]:hover {
+  background-color: #222222de;
+}

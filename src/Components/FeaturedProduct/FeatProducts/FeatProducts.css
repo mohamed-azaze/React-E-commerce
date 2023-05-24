@@ -1,0 +1,15 @@
+.slick-slide > * {
+  margin-bottom: 30px !important;
+}
+
+.slick-dots li button::before {
+  font-size: 10px;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-slide {
+  padding: 25px 18px;
+}

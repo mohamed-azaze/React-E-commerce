@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.grid .product .close-icon {
+  top: -15px;
+  right: -15px;
+}
+.no-data {
+  background-color: #fff3cd;
+  color: #856404;
+  margin-top: 92px;
+  margin-bottom: 92px;
+}
+
+@media (max-width: 1199px) {
+  .wishlist .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}

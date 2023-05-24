@@ -1,0 +1,32 @@
+.productType .mySwiper {
+  padding: 25px;
+}
+
+.productType .mySwiper .swiper-wrapper {
+  margin-bottom: 50px;
+}
+
+.productType .product-image::after {
+  content: unset !important;
+}
+.productType .product-image img {
+  transition: all 0.5s ease;
+}
+.productType .product-image:hover img {
+  transform: scale(1.1);
+}
+.productType .product-image:hover img {
+  -webkit-filter: saturate(0.5);
+  filter: saturate(0.5);
+}
+.productType .product-name {
+  font-size: 28px;
+  font-family: var(--font-f-header);
+  font-weight: 400;
+}
+.productType .swiper-pagination span {
+  background-color: var(--font-color);
+  width: 10px;
+  height: 10px;
+}
+/* ////////////////////////////////// */

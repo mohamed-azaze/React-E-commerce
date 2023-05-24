@@ -1,0 +1,116 @@
+.pages-links ul li {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.pages-links ul li:hover {
+  color: var(--main-color);
+}
+
+.search .search-icon:hover,
+.cart .cart-icon:hover {
+  color: var(--main-color) !important;
+}
+
+.search-input input.active {
+  width: 300px;
+  opacity: 1;
+}
+
+.cart > span {
+  background-color: var(--main-color);
+  border-radius: 50%;
+  min-width: 25px;
+  max-width: fit-content;
+  min-height: 25px;
+  max-height: fit-content;
+  top: -15px;
+  right: -15px;
+}
+.navbar .cart:hover .cart-popup {
+  visibility: visible;
+  opacity: 1;
+}
+.navbar .cart-popup {
+  visibility: hidden;
+  top: 25px;
+  width: 300px;
+  min-height: 250px;
+  box-shadow: 3px 3px 6px 2px rgb(0 0 0 / 27%);
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.navbar .cart-popup .cart-products {
+  min-height: 90px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.navbar .buttons .btn-222 {
+  font-size: 16px !important;
+  padding-right: 17px;
+  padding-left: 17px;
+  transition: all 0.4s ease;
+}
+.navbar .buttons .btn-222:first-of-type {
+  background-color: #fff;
+  color: #222;
+  border: 1px solid #222;
+}
+.navbar .buttons .btn-222:hover:first-of-type {
+  background-color: #222;
+  color: #fff;
+}
+
+.navbar .buttons .btn-222:hover:last-of-type {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.tax {
+  font-size: 12px;
+  color: #999;
+}
+
+@media (max-width: 991px) {
+  .main-menu {
+    display: block;
+  }
+  .main-menu i {
+    font-size: 30px;
+    cursor: pointer;
+    padding: 20px 20px;
+  }
+  .navbar {
+    position: relative;
+  }
+  .main-menu:hover + .nav-logo nav,
+  .main-menu + .nav-logo nav:hover {
+    display: block;
+    opacity: 1;
+  }
+  .nav-logo nav {
+    display: none;
+    opacity: 0;
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    z-index: 999;
+    background-color: #fff;
+    animation: navmenu 0.4s forwards;
+  }
+  .nav-logo nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0 !important;
+  }
+  .layout-menu {
+    top: 40px !important;
+  }
+  .pages-links ul > li {
+    padding: 15px 15px !important;
+  }
+  .pages-links ul > li:last-child {
+    padding-bottom: 25px !important;
+  }
+}

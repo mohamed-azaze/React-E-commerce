@@ -1,0 +1,13 @@
+.newProduct .product-image::after {
+  content: unset !important;
+}
+.newProduct .product-image img {
+  transition: all 0.5s ease;
+}
+.newProduct .product-image:hover img {
+  transform: scale(1.1);
+}
+.newProduct .product-image:hover img {
+  -webkit-filter: saturate(0.5);
+  filter: saturate(0.5);
+}

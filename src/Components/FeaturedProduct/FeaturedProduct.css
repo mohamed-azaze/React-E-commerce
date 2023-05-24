@@ -1,0 +1,4 @@
+.nav-item ul li:hover,
+.nav-item ul li.active {
+  color: var(--font-color) !important;
+}

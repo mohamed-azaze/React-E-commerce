@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "mohamed",
+      "secondName": "ali",
+      "email": "mohamed@mohamed.com",
+      "password": "12345678",
+      "activeID": 0
+    },
+    {
+      "firstName": "mostafa",
+      "lastName": "ali",
+      "email": "mostafa@ali.com",
+      "password": "12345678",
+      "activeID": 1676737454527,
+      "id": 2
+    },
+    {
+      "firstName": "mohamedali",
+      "lastName": "ahmed",
+      "email": "mohamed@ahmed.com",
+      "password": "12345678",
+      "activeID": 1676737759318,
+      "id": 3
+    }
+  ],
+  "userCheckOut": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "product": [
+        {
+          "product_id": 1,
+          "product_Count": 2
+        }
+      ]
+    }
+  ]
+}

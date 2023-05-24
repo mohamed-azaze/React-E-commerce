@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--font-color);
+}
+.footer > .container .header {
+  font-family: var(--font-f-header);
+  font-size: 28px;
+  font-weight: 400;
+}
+.footer .col li:hover a {
+  color: var(--main-color);
+}
+.footer .col .input input {
+  font-family: inherit;
+  padding: 8px 47px 8px 10px;
+}
+.footer .col .send-btn {
+  background-color: var(--font-color);
+  top: 1px;
+  right: 1px;
+  height: calc(100% - 2px);
+  width: 40px;
+  border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --main-color: #f67e3d;
+  --font-color: #222222;
+  --font-text-color: #666666;
+
+  /* fonts */
+  --font-f-header: "Josefin Sans", sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* height: 8000px; */
+}
+a {
+  color: inherit;
+}
+/* Start Fiexd Classes */
+
+.options .add-to-cart,
+.options .review,
+.options .compare {
+  width: 40px;
+  height: 40px;
+  background-color: var(--font-color);
+}
+.add-wishlist[data-title]::after {
+  content: attr(data-title);
+  width: 100px;
+  padding: 5px 5px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9;
+  background-color: #000;
+  color: #f1f1f1;
+  opacity: 0;
+  transition: 0.4s;
+}
+.add-wishlist[data-title]::before {
+  content: "\f0d7";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  color: #000;
+  opacity: 0;
+  transition: 0.4s;
+}
+.add-wishlist[data-title]:hover::after,
+.add-wishlist[data-title]:hover::before {
+  opacity: 1;
+}
+.options {
+  opacity: 0;
+  transition: 0.3s;
+}
+/* .product:hover .options {
+  opacity: 1;
+} */
+.product:hover .options {
+  opacity: 1;
+}
+.options .add-to-cart[data-title]::after,
+.options .review[data-title]::after,
+.options .compare[data-title]::after {
+  content: attr(data-title);
+  width: 90px;
+  padding: 5px 5px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  top: -34px;
+  background-color: #000;
+  color: #f1f1f1;
+  opacity: 0;
+  transition: 0.4s;
+}
+.options .add-to-cart[data-title]::before,
+.options .review[data-title]::before,
+.options .compare[data-title]::before {
+  content: "\f0d7";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: -12px;
+  color: #000;
+  opacity: 0;
+  transition: 0.4s;
+}
+.options .add-to-cart[data-title]:hover::after,
+.options .review[data-title]:hover::after,
+.options .compare[data-title]:hover::after,
+.options .add-to-cart[data-title]:hover::before,
+.options .review[data-title]:hover::before,
+.options .compare[data-title]:hover::before {
+  opacity: 1;
+}
+.col .product-image .image::after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+}
+.col .product-image .image:hover::after {
+  opacity: 1;
+}
+
+/* End Fiexd Classes */
