@@ -68,7 +68,7 @@ const PagesNavbar = () => {
                             <ul className="flex-center gap-25 lg-gap-0" style={{ "marginLeft": "50px" }}>
                                 <li
                                     className='cursor-pointer fw-700 transition-04s c-000'>
-                                    <Link to={"/"}>
+                                    <Link to={"React-E-commerce/"}>
                                         Home
                                     </Link>
                                 </li>

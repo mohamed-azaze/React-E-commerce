@@ -103,7 +103,7 @@ const Card = ({ product }) => {
         <>
             <div className="col product " key={product.id}>
                 <div className="product-image pos-relative cursor-pointer">
-                    <Link to={`/${product.id}`} >
+                    <Link to={`React-E-commerce/${product.id}`} >
                         <div className="image">
                             <img
                                 className="lg-minw-100"
@@ -140,7 +140,7 @@ const Card = ({ product }) => {
                                     <i className="fa-solid fa-bag-shopping fz-17 c-fff"></i>
                                 }
                             </div>
-                            : <Link to={"/login"}>
+                            : <Link to={"React-E-commerce/login"}>
 
                                 <div
 

@@ -72,13 +72,13 @@ const SignUpNavbar = () => {
                     </> : <>
                         <li className='flex-center gap-5 py-15 fz-15 cursor-pointer '>
                             <FaUser className='mr-5' />
-                            <Link to={"/login"}>
+                            <Link to={"React-E-commerce/login"}>
                                 <span>Sign In</span>
                             </Link>
                         </li>
                         <li className='flex-center gap-5 py-15 fz-15 cursor-pointer'>
                             <FaLock className='mr-5' />
-                            <Link to={`/create_account`}>
+                            <Link to={`React-E-commerce/create_account`}>
                                 <span>Create Account</span>
                             </Link>
                         </li>
@@ -86,7 +86,7 @@ const SignUpNavbar = () => {
                     <li className='flex-center gap-5 py-15 fz-15 cursor-pointer'>
                         <FaHeart className='mr-5' />
                         <span>
-                            <Link to={"/Wishlist"}>
+                            <Link to={"React-E-commerce/Wishlist"}>
                                 Wishlist <span>({favproductsStorage !== null ? favproductsStorage.length : 0})</span>
                             </Link>
                         </span>
