@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { getUsers } from '../../../Store/UsersSlice'
 import { FaHeart, FaLock, FaSync, FaUser } from "react-icons/fa"
@@ -72,9 +72,9 @@ const SignUpNavbar = () => {
                     </> : <>
                         <li className='flex-center gap-5 py-15 fz-15 cursor-pointer '>
                             <FaUser className='mr-5' />
-                            <Link to={"/login"}>
+                            <NavLink to={"/login"}>
                                 <span>Sign In</span>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className='flex-center gap-5 py-15 fz-15 cursor-pointer'>
                             <FaLock className='mr-5' />
