@@ -15,29 +15,28 @@ import ResetPassword from './Pages/ResetPassword/ResetPassword';
 
 
 function App() {
-  localStorage.setItem('cart', JSON.stringify([]));
-  localStorage.setItem('fav', JSON.stringify([]));
-  localStorage.setItem('isActive', JSON.stringify([]));
+
+  if (!localStorage.getItem('cart') || !localStorage.getItem('fav') || !localStorage.getItem('isActive')) {
+
+    localStorage.setItem('cart', JSON.stringify([]));
+    localStorage.setItem('fav', JSON.stringify([]));
+    localStorage.setItem('isActive', JSON.stringify([]));
+  }
 
 
   return (
-    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="React-E-commerce/" element={<Home />} />
+        <Route path="React-E-commerce/:id" element={<ProductDetails />} />
+        <Route path='React-E-commerce/Wishlist' element={<Wishlist />} />
+        <Route path='React-E-commerce/create_account' element={<CreateAccount />} />
+        <Route path='React-E-commerce/login' element={<Login />} />
+        <Route path='React-E-commerce/reset-password' element={<ResetPassword />} />
+        {/* <Route path='/loading' element={<Loading />} /> */}
 
-      <BrowserRouter>
-        <Routes>
-          <Route path="React-E-commerce/" element={<Home />} />
-          <Route path="React-E-commerce/:id" element={<ProductDetails />} />
-          <Route path='React-E-commerce/Wishlist' element={<Wishlist />} />
-          <Route path='React-E-commerce/create_account' element={<CreateAccount />} />
-          <Route path='React-E-commerce/login' element={<Login />} />
-          <Route path='React-E-commerce/reset-password' element={<ResetPassword />} />
-          {/* <Route path='/loading' element={<Loading />} /> */}
-
-        </Routes>
-      </BrowserRouter>
-
-
-    </>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

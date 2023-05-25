@@ -72,7 +72,7 @@ const SignUpNavbar = () => {
                     </> : <>
                         <li className='flex-center gap-5 py-15 fz-15 cursor-pointer '>
                             <FaUser className='mr-5' />
-                            <NavLink to="React-E-commerce/login">
+                            <NavLink to="/React-E-commerce/login">
                                 <span>Sign In</span>
                             </NavLink>
                         </li>
