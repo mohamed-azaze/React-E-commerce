@@ -13,7 +13,12 @@ import ResetPassword from './Pages/ResetPassword/ResetPassword';
 
 
 
+
 function App() {
+  localStorage.setItem('cart', JSON.stringify([]));
+  localStorage.setItem('fav', JSON.stringify([]));
+  localStorage.setItem('isActive', JSON.stringify([]));
+
 
   return (
     <>

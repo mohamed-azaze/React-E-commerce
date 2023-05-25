@@ -3,7 +3,6 @@ import './FeaturedProduct.css'
 import Heading from '../Heading/Heading'
 import FeatProducts from './FeatProducts/FeatProducts'
 import { useState } from 'react'
-import { useEffect } from 'react'
 
 
 const FeaturedProduct = () => {

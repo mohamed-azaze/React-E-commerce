@@ -13,8 +13,7 @@ import './SignUpNavbar.css'
 
 const SignUpNavbar = () => {
     const [uesrName, setUestName] = useState("")
-    const { users } = useSelector((state) => state.users)
-    const { favProducts } = useSelector((state) => state.favProducts)
+    const { users } = useSelector((state) => state.users);
 
     const disPatch = useDispatch()
 
@@ -29,7 +28,9 @@ const SignUpNavbar = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
     let correctUser = [];
     let activeUser = isActive.filter(useractive => useractive.isActive === true)
+
     if (isActive) {
+
         for (let i = 0; i < users.length; i++) {
             for (let j = 0; j < activeUser.length; j++) {
                 if (users[i].activeID === activeUser[j].id && activeUser[j].isActive === true) {
