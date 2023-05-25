@@ -72,7 +72,7 @@ const SignUpNavbar = () => {
                     </> : <>
                         <li className='flex-center gap-5 py-15 fz-15 cursor-pointer '>
                             <FaUser className='mr-5' />
-                            <NavLink to={"/login"}>
+                            <NavLink to="/login">
                                 <span>Sign In</span>
                             </NavLink>
                         </li>
