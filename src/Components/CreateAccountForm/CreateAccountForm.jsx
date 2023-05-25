@@ -77,7 +77,7 @@ const CreateAccountForm = () => {
             lastName.current.value = ""
             email.current.value = ""
             password.current.value = ""
-            navigate(`React-E-commerce/`)
+            navigate(`/React-E-commerce/`)
 
         }
     }
