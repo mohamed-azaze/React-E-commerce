@@ -5,9 +5,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const getProducts = createAsyncThunk("product/getProducts",
     async (_, thunkAPIs) => {
         try {
-            const res = await fetch("http://localhost:4000/products");
+            const res = await fetch("https://raw.githubusercontent.com/mohamed-azaze/jsonAPI-products/main/db.json");
             const products = await res.json();
-            return products;
+            return products.products;
         } catch (error) {
             console.log(error.message)
         }

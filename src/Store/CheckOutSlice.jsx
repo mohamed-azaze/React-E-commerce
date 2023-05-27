@@ -6,9 +6,9 @@ export const getAllOrder = createAsyncThunk("users/getAllOrder",
     async (_, thunkAPIs) => {
         const { rejectWithValue } = thunkAPIs;
         try {
-            const res = await fetch(`http://localhost:4000/userCheckOut`);
+            const res = await fetch(`https://raw.githubusercontent.com/mohamed-azaze/jsonAPI-products/main/db.json`);
             const data = await res.json();
-            return data;
+            return data.userCheckOut;
         } catch (error) {
             return rejectWithValue(error.message)
         }
@@ -18,7 +18,7 @@ export const addOrder = createAsyncThunk("users/addOrder",
     async (order, thunkAPIs) => {
         const { rejectWithValue } = thunkAPIs;
         try {
-            const res = await fetch(`http://localhost:4000/userCheckOut`, {
+            const res = await fetch(`https://raw.githubusercontent.com/mohamed-azaze/jsonAPI-products/main/db.json`, {
                 method: 'POST',
                 body: JSON.stringify(order),
                 headers: {

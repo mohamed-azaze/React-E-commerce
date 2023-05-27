@@ -88,6 +88,7 @@ const LoginForm = () => {
                                     className="ol-none border-none place-none mb-10 py-15 px-15"
                                     type="email"
                                     placeholder="Email"
+                                    value="ibrahem@ali.org"
                                 />
                             </div>
                             <div className="input-group w-400 maxw-100">
@@ -96,6 +97,7 @@ const LoginForm = () => {
                                     className="ol-none border-none place-none mb-10 py-15 px-15"
                                     type="password"
                                     placeholder="Password"
+                                    value="12345678"
                                 />
                             </div>
                             <div

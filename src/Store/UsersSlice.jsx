@@ -3,9 +3,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 export const getUsers = createAsyncThunk("users/getUsers",
     async (_, thunkAPIs) => {
         try {
-            const res = await fetch(`http://localhost:4000/users`);
+            const res = await fetch(`https://raw.githubusercontent.com/mohamed-azaze/jsonAPI-products/main/db.json`);
             const data = await res.json();
-            return data;
+            return data.users;
         } catch (error) {
             console.log(error.message)
         }
@@ -14,7 +14,7 @@ export const getUsers = createAsyncThunk("users/getUsers",
 export const addUser = createAsyncThunk("users/addUser",
     async (user, thunkAPIs) => {
         try {
-            const res = await fetch(`http://localhost:4000/users`, {
+            const res = await fetch(`https://raw.githubusercontent.com/mohamed-azaze/jsonAPI-products/main/db.json`, {
                 method: 'POST',
                 body: JSON.stringify(user),
                 headers: {
