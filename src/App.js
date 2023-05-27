@@ -27,7 +27,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="React-E-commerce/" element={<Home />} />
+        <Route path="React-E-commerce" element={<Home />} />
         <Route path="React-E-commerce/:id" element={<ProductDetails />} />
         <Route path='React-E-commerce/Wishlist' element={<Wishlist />} />
         <Route path='React-E-commerce/create_account' element={<CreateAccount />} />
