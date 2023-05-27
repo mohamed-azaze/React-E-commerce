@@ -1,5 +1,5 @@
 import './App.css';
-import { Route, Routes, BrowserRouter, HashRouter } from 'react-router-dom'
+import { Route, Routes, BrowserRouter } from 'react-router-dom'
 // Start Import Components
 import Home from './Pages/Home/Home.jsx';
 import ProductDetails from './Pages/ProductDetails/ProductDetails';
@@ -25,8 +25,7 @@ function App() {
 
 
   return (
-    // <BrowserRouter>
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="React-E-commerce" element={<Home />} />
         <Route path="React-E-commerce/:id" element={<ProductDetails />} />
@@ -37,8 +36,7 @@ function App() {
         {/* <Route path='/loading' element={<Loading />} /> */}
 
       </Routes>
-    </HashRouter>
-    // </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
